@@ -7,3 +7,4 @@ function restorePlaceholder(input) {
     input.setAttribute('placeholder', input.getAttribute('data-placeholder'));
     input.removeAttribute('data-placeholder');
 }
+

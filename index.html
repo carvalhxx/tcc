@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -12,15 +15,24 @@
     <header>
         <div class="local">
             <div class="input">
-                <span><input class="input1" type="text" placeholder="Agende seus serviços..."
+                <span><input class="input1" id="myInput1" type="text" placeholder="Agende seus serviços..."
                         onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></span>
-                <span><input class="input2" type="text" placeholder="Onde" onfocus="clearPlaceholder(this)"
+                <span><input class="input2" id="myInput2" type="text" placeholder="Onde" onfocus="clearPlaceholder(this)"
                         onblur="restorePlaceholder(this)"></span>
-                <span><input class="input3" type="text" placeholder="Quando?" onfocus="clearPlaceholder(this)"
+                <span><input class="input3" id="myInput3" type="text" placeholder="Quando?" onfocus="clearPlaceholder(this)"
                         onblur="restorePlaceholder(this)"></span>
             </div>
+            <i id="icon" class="fa-solid fa-circle-user fa-xl" style="color: #ffffff;"></i>
+            <span class="hicon">
+                <h3>Entrar / Cadastrar</h3>
+            </span>
         </div>
     </header>
+    <section class="card">
+        <h2 class="recon">Recomendado</h2>
+        <div class="carrosel"></div>
+    </section>
+    <script src="https://kit.fontawesome.com/625b016808.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
