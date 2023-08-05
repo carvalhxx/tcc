@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    
 }
 
 header {
@@ -91,10 +90,10 @@ h2 {
     align-items: center;
     padding: 0 35px;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 .wrapper{
-    max-width: 1200px;
+    max-width: 1600px;
     position: relative;
 }
 
@@ -137,10 +136,10 @@ h2 {
 }
 
 .carousel img {
-    height: 340px;
+    height: 250px;
     object-fit: cover;
     margin-left: 14px;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
 }
 
 .carousel img:first-child{
@@ -156,4 +155,84 @@ h2 {
     .carousel img{
         width: 100%;
     }
+}
+
+.footer {
+    background-color: #292929;
+    height: 20vh;
+}
+
+.footer a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    display: inline-block;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.faq {
+    margin-left: 5vh;
+}
+
+hr {
+    width: 185vh;
+    background-color: #ebebeb;
+    border: 0;
+    border-bottom: 1px solid;
+    border-color: #ebebeb;
+    opacity: 0.3;
+}
+
+.copy p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    opacity: 0.3;
+}
+
+
+.copy {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10vh;
+    font-size: small;
+}
+
+.midias {
+    display: flex;
+    margin-top: 23px;
+    margin-left: 140vh;
+    gap: 10px;
+}
+
+.barbeiros {
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.barbeiros img {
+    display: flex;
+    padding: 0 35px;
+}
+
+.sub {
+    display: flex;
+    margin-left: 67vh;
+    justify-content: center;
+    align-content: center;
+    width: 70vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tit {
+    display: flex;
+    justify-content: center;
 }
