@@ -69,6 +69,13 @@ input[type="text"] {
     display: inline-block;
     justify-content: center;
    margin-bottom: 25px;
+   text-decoration: none;
+   color: white;
+}
+.cad {
+    text-decoration: none;
+    color: white
+    ;
 }
 
 h3 {
@@ -221,18 +228,18 @@ hr {
 .barbeiros img {
     display: flex;
     padding: 0 35px;
+    margin: 0 auto;
 }
 
 .sub {
     display: flex;
-    margin-left: 67vh;
-    justify-content: center;
-    align-content: center;
-    width: 70vh;
+    margin: 0 auto;
+    width: 100vh;
     font-family: 'Open Sans', sans-serif;
 }
 
 .tit {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
