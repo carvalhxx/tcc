@@ -47,3 +47,22 @@ function restorePlaceholder(input) {
  carousel.addEventListener("mousemove", dragging);
  carousel.addEventListener("mouseup", dragStop);
 
+ document.addEventListener("DOMContentLoaded", function() {
+   const footer = document.querySelector(".ft");
+
+   function showFooterOnScroll() {
+       const windowHeight = window.innerHeight;
+       const documentHeight = document.body.scrollHeight;
+       const scrollTop = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+       if (windowHeight + scrollTop >= documentHeight) {
+           footer.style.display = "block";
+       } else {
+           footer.style.display = "none";
+       }
+   }
+
+   window.addEventListener("scroll", showFooterOnScroll);
+});
+
+
